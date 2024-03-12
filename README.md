@@ -9,6 +9,7 @@ To run:
 2. Run `mvn package`
 3. Navigate to `target` directory
 4. Run `java -jar hello-spring-0.0.1.jar`
+5. Application runs on `localhost:8080`
 
 ---
 
