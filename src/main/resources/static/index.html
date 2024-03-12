@@ -1,22 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <div>
-            <h1>
-                Da Vinci Artwork
-            </h1>
-            <div class="photo-container">
-                <div>
-                    <img src="./images/mona-lisa.jpeg" width="500px">
-                    <p>The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci.</p>
-                </div>
-                <div>
-                    <img src="./images/salvator-mundi.jpeg" width="500px">
-                    <p> The Salvator Mundi was painted for King Louis XII of France.</p>
-                </div>
+<head>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
 
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .photo-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .photo-container div {
+            flex: 1;
+            max-width: 300px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .photo-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .photo-container p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Da Vinci Artwork</h1>
+        <div class="photo-container">
+            <div>
+                <img src="./images/mona-lisa.jpeg">
+                <p>The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci.</p>
+            </div>
+            <div>
+                <img src="./images/salvator-mundi.jpeg">
+                <p>The Salvator Mundi was painted for King Louis
             </div>
         </div>
-    </body>
-</html>
+    </div>
