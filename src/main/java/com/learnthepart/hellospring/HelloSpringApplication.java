@@ -8,7 +8,8 @@ public class HelloSpringApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloSpringApplication.class, args);
-		System.out.println("Hi there from Appdps");
+		String msg = "Change this to ensure hotreload runs";
+		System.out.println(msg);
 	}
 
 }
